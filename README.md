@@ -38,3 +38,7 @@ Light 是一个很快的应用，在启用 Gzip 和 Production 模式后，首�
 我写了完整的数据库迁移，你可以用它来安装数据库。
 
 reset.py 是定时重置流量的脚本，你只要安装依赖，并把它写入 crontab 即可。
+
+服务端支持 shadowsocks-manyuser 及 shadowsocksr-manyuser。
+
+如果你需要技术支持，请先向我的支付宝 cenegd@live.com 打钱，我不对此项目提供无偿技术支持。
