@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run dev -- -w",
+    "watch-poll": "npm run dev -- -w --watch-poll",
+    "hot": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "npm run dev -- -p"
+  },
+  "config": {
+    "webpack": "node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "babel-polyfill": "^6.23.0",
+    "blueimp-md5": "^2.7.0",
+    "laravel-mix": "^0.8.1",
+    "moment": "^2.17.1",
+    "v-qrcode": "^1.0.3",
+    "vue": "^2.1.10",
+    "vue-clipboard2": "^0.0.4",
+    "vue-router": "^2.2.1",
+    "vuex": "^2.1.2"
+  },
+  "dependencies": {}
+}
