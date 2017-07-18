@@ -41,4 +41,6 @@ reset.py 是定时重置流量的脚本，你只要安装依赖，并把它写�
 
 服务端支持 shadowsocks-manyuser 及 shadowsocksr-manyuser。
 
-如果你需要技术支持，请先向我的支付宝 cenegd@live.com 打钱，我不对此项目提供无偿技术支持。
+### 技术支持 ###
+
+我不对此项目提供无偿技术支持。
